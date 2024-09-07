@@ -16,6 +16,14 @@ function App() {
       >
         Ouvrir mon profil LinkedIn
       </button>
+      <button
+        className="button"
+        style={{
+          marginTop: '1rem'
+        }}
+      >
+        Voir mon portfolio
+      </button>
     </div>
   );
 }
