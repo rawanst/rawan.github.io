@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1 style={{fontFamily: "Melodrama-Light", fontWeight: '500'}}>
-        Coming soon ...
+        Rawan Tabaja <strong style={{fontFamily: "Melodrama-bold"}}>Portfolio</strong>
       </h1>
     </div>
   );
