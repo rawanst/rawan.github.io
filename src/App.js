@@ -7,6 +7,15 @@ function App() {
       <h1 style={{fontFamily: "Melodrama-Light", fontWeight: '500'}}>
         Rawan Tabaja <strong style={{fontFamily: "Melodrama-bold"}}>Portfolio</strong>
       </h1>
+      <button
+        className="button"
+        onClick={
+          () => {
+            window.open('https://www.linkedin.com/in/rawan-t-5ba1bb170/', '_blank');
+           }}
+      >
+        Ouvrir mon profil LinkedIn
+      </button>
     </div>
   );
 }
