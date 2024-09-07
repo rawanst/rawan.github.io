@@ -7,3 +7,34 @@
   font-size: calc(10px + 2vmin);
   color: #823ccbff;
 }
+
+.button{
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 15em;
+
+  font-family: Melodrama-Medium;
+  color: #823ccbff;
+  font-weight: 1000;
+  font-size: 100%;
+  
+  background-color: #e8e3edff;
+  
+  padding: 0 5%;
+  border-radius: 0.8em;
+
+  border: 0.2rem solid #823ccbff;
+  box-shadow: 0.6rem 0.6rem 0.6rem rgb(171, 155, 185);
+  
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(203, 193, 211)
+}
+
+.button:active {
+  transform: translateY(6px);
+}
