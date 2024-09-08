@@ -1,14 +1,14 @@
-.App {
+.App-FirstPage {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 15%;
   font-size: calc(10px + 2vmin);
+  margin-top: 15%;
   color: #823ccbff;
 }
 
-.button{
+.Button-FirstPage{
   height: auto;
   width: auto;
   max-width: 100%;
@@ -31,10 +31,10 @@
   cursor: pointer;
 }
 
-.button:hover {
+.Button-FirstPage:hover {
   background-color: rgb(203, 193, 211)
 }
 
-.button:active {
+.Button-FirstPage:active {
   transform: translateY(6px);
 }

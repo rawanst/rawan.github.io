@@ -1,25 +1,24 @@
-import './App.css';
+import './App.css'
 import { melodrama } from './fontShare/melodrama/css/melodrama.css'
-import { useState } from 'react';
+import { useState } from 'react'
+import FrontPage from './component/FrontPage'
 
 function App() {
   const [show, SetShow] = useState(false);
   
   return (
-    <div className="App">
-      {show ? 
+    <>
+      {show && 
         (
-          <h1 style={{fontFamily: "Melodrama-Light", fontWeight: '500'}}>
-            Coming soon ...
-          </h1>
-        ) : 
-        (
-          <>
+          <FrontPage />
+        )}
+        {!show && (
+          <div className='App-FirstPage'>
             <h1 style={{fontFamily: "Melodrama-Light", fontWeight: '500'}}>
               Rawan Tabaja <strong style={{fontFamily: "Melodrama-bold"}}>Portfolio</strong>
             </h1>
             <button
-            className="button"
+            className="Button-FirstPage"
               onClick={
                 () => {
                   SetShow(true)
@@ -31,7 +30,7 @@ function App() {
               Ouvrir mon profil LinkedIn
             </button>
             <button
-              className="button"
+              className="Button-FirstPage"
               style={{
                 marginTop: '1rem'
               }}
@@ -39,10 +38,10 @@ function App() {
             >
                 Voir mon portfolio
             </button>
-          </>
-        )
-      }
-    </div>
+          </div>
+
+        )}
+    </>
   );
 }
 
