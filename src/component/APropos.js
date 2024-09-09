@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 const APropos = () => {
+  const [isHover, setIsHover] = useState(false)
+
   return(
     <div
       style={{
@@ -15,12 +19,13 @@ const APropos = () => {
       <div
         style={{
           maxWidth: '50rem',
+          marginBottom: '2%',
         }}
       >
         <h1
           style={{
             fontFamily: "Melodrama-Bold",
-            // fontWeight: '500',
+            fontWeight: '500',
             fontSize: 'xxx-large',
             color: '#7a2acd',
           }}
@@ -30,9 +35,9 @@ const APropos = () => {
         <p
           style={{
             fontFamily: "Melodrama-Light",
-            color: '#7a2acd',
             fontWeight: '600',
             fontSize: 'x-large',
+            color: '#7a2acd',
           }}
         >
           Développeuse web full-stack diplômée d’un <strong style={{fontFamily: "Melodrama-Bold", fontSize: 'xx-large'}}> Master </strong> en développement informatique,
@@ -43,15 +48,64 @@ const APropos = () => {
           développer mes compétences techniques.
         </p>
       </div>
-
-      <img
-        src='../../CVimg.png'
-        alt="Capture d'écran de mon CV"
+      <a
+        href='../../CV.pdf'
+        target="_blank"
+        onMouseEnter={() => setIsHover(true)}
+        onMouseLeave={() => setIsHover(false)}
         style={{
-          width:'20%',
-          minWidth: '15em'
+          width:'17%',
+          minWidth: '15em',
+          height: '40%',
+          minHeight: '20em',
+          
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          flexDirection: 'column',
+          alignItems: 'center',
         }}
-      />
+      >
+        <img
+          src='../../CVimg.png'
+          alt="Capture d'écran de mon CV"
+          style={{
+            width:'20%',
+            minWidth: '15em',
+            height: '40%',
+            minHeight: '20em',
+            position: 'relative',
+          }}
+        />
+        <div
+          style={{
+            width:'12%',
+            minWidth: '15em',
+            height: '40%',
+            minHeight: '20em',
+            position: 'absolute',
+
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            flexDirection: 'column',
+
+            backgroundColor: 'rgba(0,0,0,0.6)',
+            opacity: isHover ? '1' : '0',
+            transition: '0.1s',
+          }}
+        >
+          <img
+          src='../../downloadbutton.png'
+          alt="Capture d'écran de mon CV"
+          style={{
+            width:'36%',
+            height: '28%',
+            position: 'relative',
+          }}
+        />
+        </div>
+      </a>
     </div>
   )
 }

@@ -23,6 +23,7 @@ const FrontPage = () => {
             fontWeight: '500',
             marginLeft: '1%',
             marginTop: '20%',
+            marginBottom: '2%',
         }}
         >
           Développeuse Full-Stack

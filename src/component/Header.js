@@ -3,6 +3,7 @@ const Header = () => {
       <div 
          style = {{
            position: 'sticky',
+           zIndex: '100',
            top: '0',
            display: 'flex',
            flexDirection: 'column',
