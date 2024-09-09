@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.da8bda9d.css",
-    "main.js": "/static/js/main.8bc40b8c.js",
+    "main.css": "/static/css/main.a5a0cc20.css",
+    "main.js": "/static/js/main.46ccfc80.js",
     "static/js/453.4f663656.chunk.js": "/static/js/453.4f663656.chunk.js",
     "static/media/Melodrama-Variable.ttf": "/static/media/Melodrama-Variable.94cb5d31e2ef87b79578.ttf",
     "static/media/Melodrama-Semibold.ttf": "/static/media/Melodrama-Semibold.b72c7840cb848209ac71.ttf",
@@ -22,12 +22,12 @@
     "static/media/Melodrama-Light.woff2": "/static/media/Melodrama-Light.ed823f2efd506c6d66fa.woff2",
     "static/media/Melodrama-Bold.woff2": "/static/media/Melodrama-Bold.4c9b3df110d5520712a7.woff2",
     "index.html": "/index.html",
-    "main.da8bda9d.css.map": "/static/css/main.da8bda9d.css.map",
-    "main.8bc40b8c.js.map": "/static/js/main.8bc40b8c.js.map",
+    "main.a5a0cc20.css.map": "/static/css/main.a5a0cc20.css.map",
+    "main.46ccfc80.js.map": "/static/js/main.46ccfc80.js.map",
     "453.4f663656.chunk.js.map": "/static/js/453.4f663656.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da8bda9d.css",
-    "static/js/main.8bc40b8c.js"
+    "static/css/main.a5a0cc20.css",
+    "static/js/main.46ccfc80.js"
   ]
 }
