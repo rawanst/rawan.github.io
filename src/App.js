@@ -4,6 +4,7 @@ import { useState } from 'react'
 import FrontPage from './component/FrontPage'
 import Header from './component/Header'
 import APropos from './component/APropos'
+import Footer from './component/Footer'
 
 function App() {
   const [show, SetShow] = useState(false);
@@ -16,6 +17,7 @@ function App() {
             <Header />
             <FrontPage />
             <APropos />
+            <Footer/>
           </>
         )}
         {!show && (
