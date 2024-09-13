@@ -6,7 +6,7 @@ const APropos = () => {
   return(
     <div
       style={{
-        // marginLeft: '1%',
+        marginLeft: '2%',
         paddingTop: '3%',
         paddingBottom: '3%',
         // paddingTop: '10%',

@@ -10,6 +10,7 @@ const Footer = () => {
 
         width: '98%',
         marginLeft: '1%',
+        marginBottom: '-5%',
         borderRadius: '1em 1em 0 0',
 
         color: '#e8e3edff',
