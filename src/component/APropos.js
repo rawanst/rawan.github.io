@@ -6,9 +6,10 @@ const APropos = () => {
   return(
     <div
       style={{
-        marginLeft: '1%',
-        paddingBottom: '10%',
-        paddingTop: '15%',
+        // marginLeft: '1%',
+        paddingTop: '3%',
+        paddingBottom: '3%',
+        // paddingTop: '10%',
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
@@ -19,7 +20,7 @@ const APropos = () => {
       <div
         style={{
           maxWidth: '50rem',
-          marginBottom: '2%',
+          // marginBottom: '2%',
         }}
       >
         <h1
@@ -28,6 +29,7 @@ const APropos = () => {
             fontWeight: '500',
             fontSize: 'xxx-large',
             color: '#7a2acd',
+            margin: '0',
           }}
         >
           A Propos
@@ -38,6 +40,7 @@ const APropos = () => {
             fontWeight: '600',
             fontSize: 'x-large',
             color: '#7a2acd',
+            margin: '0'
           }}
         >
           Développeuse web full-stack diplômée d’un <strong style={{fontFamily: "Melodrama-Bold", fontSize: 'xx-large'}}> Master </strong> en développement informatique,
@@ -58,6 +61,7 @@ const APropos = () => {
           minWidth: '15em',
           height: '40%',
           minHeight: '20em',
+          padding: '1%',
           
           display: 'flex',
           justifyContent: 'center',
