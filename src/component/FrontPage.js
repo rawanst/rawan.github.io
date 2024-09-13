@@ -5,15 +5,19 @@ const FrontPage = () => {
         style={{
           display: 'flex',
           flexDirection: 'column',
-          alignItems: 'flex-start',
           justifyContent: 'flex-start',
-          fontSize: 'calc(10px + 2vmin)',
-          marginTop: '-8%',
-          marginLeft: '1%',
+          alignContent: 'center',
+
           width: '98%',
           borderRadius: '0 0 1em 1em',
-          backgroundColor: '#823ccbff',
+          marginTop: '-8%',
+          marginLeft: '1%',
+          paddingTop: '12%',
+          paddingBottom: '8%',
+
           color: '#e8e3edff',
+          fontSize: 'calc(10px + 2vmin)',
+          backgroundColor: '#823ccbff',
         }}
 
       >
@@ -21,9 +25,9 @@ const FrontPage = () => {
         style={{
             fontFamily: "Melodrama-Bold", 
             fontWeight: '500',
+            fontSize: 'xxx-large',
+            margin: '0',
             marginLeft: '1%',
-            marginTop: '20%',
-            marginBottom: '2%',
         }}
         >
           Développeuse Full-Stack
@@ -32,10 +36,9 @@ const FrontPage = () => {
           style={{
             fontFamily: "Melodrama-Light", 
             fontWeight: '300',
+            margin: '0',
             marginLeft: '1%',
-            marginTop: '-1.8rem',
-            marginRight: '45%',
-            marginBottom: '15%',
+            paddingRight: '45%',
             textAlign: 'left',
             fontSize: 'x-large',
           }}
