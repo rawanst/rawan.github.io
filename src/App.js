@@ -15,7 +15,11 @@ function App() {
         (
           <>
             <Header />
-            <FrontPage />
+            <FrontPage
+              title='Développeuse Full-Stack'
+              content='Passionné par la tech, je transforme les défis en solutions innovantes. 
+                Découvrez mon parcours et mes réalisations.'
+            />
             <APropos />
             <Footer/>
           </>

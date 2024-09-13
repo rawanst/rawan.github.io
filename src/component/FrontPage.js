@@ -1,4 +1,4 @@
-const FrontPage = () => {
+const FrontPage = ({title, content}) => {
 
     return(
       <div 
@@ -30,7 +30,7 @@ const FrontPage = () => {
             marginLeft: '1%',
         }}
         >
-          Développeuse Full-Stack
+          {title}
         </h1>
         <p 
           style={{
@@ -43,8 +43,7 @@ const FrontPage = () => {
             fontSize: 'x-large',
           }}
         >
-          Passionné par la tech, je transforme les défis en solutions innovantes. 
-          Découvrez mon parcours et mes réalisations.
+          {content}
         </p>
       </div>
     )
