@@ -1,14 +1,16 @@
-import * as React from "react";
-import { createRoot } from "react-dom/client";
+import * as React from 'react'
+import { createRoot } from 'react-dom/client'
 import {
   createBrowserRouter,
   RouterProvider,
   Route,
   Link,
-} from "react-router-dom";
-import App from './App';
-import Blog from './Pages/Blog';
-import Portfolio from './Pages/Portfolio';
+} from "react-router-dom"
+import App from './App'
+import Blog from './Pages/Blog'
+import Portfolio from './Pages/Portfolio'
+import Article from './Pages/Article'
+import ComingSoon from './Pages/ComingSoon'
 
 const router = createBrowserRouter([
   {
@@ -20,8 +22,16 @@ const router = createBrowserRouter([
     element: <Blog />,
   },
   {
+    path: "blog/:id",
+    element: <Article />,
+  },
+  {
     path: "portfolio",
     element: <Portfolio />,
+  },
+  {
+    path: "portfolio/:id",
+    element: <ComingSoon />,
   },
 ]);
 
