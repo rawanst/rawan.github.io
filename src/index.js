@@ -9,11 +9,16 @@ import Blog from './Pages/Blog'
 import Portfolio from './Pages/Portfolio'
 import Article from './Pages/Article'
 import ComingSoon from './Pages/ComingSoon'
+import Home from './Pages/Home'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "home",
+    element: <Home />,
   },
   {
     path: "blog",
