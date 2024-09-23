@@ -1,14 +1,13 @@
-import * as React from "react";
-import { createRoot } from "react-dom/client";
+import * as React from 'react'
+import { createRoot } from 'react-dom/client'
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
-} from "react-router-dom";
-import App from './App';
-import Blog from './Pages/Blog';
-import Portfolio from './Pages/Portfolio';
+} from "react-router-dom"
+import App from './App'
+import Blog from './Pages/Blog'
+import Portfolio from './Pages/Portfolio'
+import Article from './Pages/Article'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "blog",
     element: <Blog />,
+  },
+  {
+    path: "blog/:id",
+    element: <Article />,
   },
   {
     path: "portfolio",
