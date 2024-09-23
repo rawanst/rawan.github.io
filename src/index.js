@@ -8,6 +8,7 @@ import App from './App'
 import Blog from './Pages/Blog'
 import Portfolio from './Pages/Portfolio'
 import Article from './Pages/Article'
+import ComingSoon from './Pages/ComingSoon'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "portfolio",
     element: <Portfolio />,
+  },
+  {
+    path: "portfolio/:id",
+    element: <ComingSoon />,
   },
 ]);
 
