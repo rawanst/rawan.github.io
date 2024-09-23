@@ -47,8 +47,6 @@ const Blog = () => {
     }
   ]
 
-  
-
   return (
     <div
       style={{
@@ -76,22 +74,11 @@ const Blog = () => {
         {articles.map((article, i) => {
           return (
             <Liste 
-              key={article.id}
-              id={article.id}
-              titre={article.titre}
-              date={article.date}
-              resume={article.resume}
-              contenu={article.contenu}
+              item={article}
+              type='blog'
             />
           )
         })}
-        {/* <Liste 
-          id={articles[0].id}
-          titre={articles[0].titre}
-          date={articles[0].date}
-          resume={articles[0].resume}
-          contenu={articles[0].contenu}
-        /> */}
       </div>
       <Footer />
     </div>

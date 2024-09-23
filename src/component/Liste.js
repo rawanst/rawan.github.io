@@ -1,15 +1,24 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-const Liste = ({id, titre, date, resume, contenu}) => {
+const Liste = ({item, type}) => {
     const [isHover, setIsHover] = useState(false)
+
+    const navigate = useNavigate(); 
+    const routeChange = () => { 
+      navigate(`/${type}/${item.id}`);
+    }
 
     return (
         <div
           onMouseEnter={() => setIsHover(true)}
           onMouseLeave={() => setIsHover(false)}
+          onClick={routeChange}
           style={{
-            key: {id},
+            key: item.id,
             width: '97%',
+            marginBottom: '0.5%',
+            marginTop: '0.5%',
             border: '4px solid #823ccbff',
             borderRadius: '1em',
             fontFamily: "Melodrama-Light", 
@@ -26,7 +35,7 @@ const Liste = ({id, titre, date, resume, contenu}) => {
               marginLeft: '1%',
             }}
           >
-            {titre}
+            {item.titre}
           </h2>
           <p
             style={{
@@ -34,14 +43,14 @@ const Liste = ({id, titre, date, resume, contenu}) => {
                 marginLeft: '1%',
             }}
           >
-            {date}
+            {item.date}
           </p>
           <p
             style={{
               marginLeft: '1%',
             }}
           >
-            {resume}
+            {item.resume}
           </p>
         </div>
     )
