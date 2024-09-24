@@ -10,6 +10,7 @@ import Portfolio from './Pages/Portfolio'
 import Article from './Pages/Article'
 import ComingSoon from './Pages/ComingSoon'
 import Home from './Pages/Home'
+import NotFound from './Pages/NotFound'
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
   {
     path: "portfolio/:id",
     element: <ComingSoon />,
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 
