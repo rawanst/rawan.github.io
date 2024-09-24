@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.60e4e127.css",
-    "main.js": "/static/js/main.803d7cd9.js",
+    "main.js": "/static/js/main.d0fbdf77.js",
     "static/media/Melodrama-Variable.ttf": "/static/media/Melodrama-Variable.94cb5d31e2ef87b79578.ttf",
     "static/media/Melodrama-Semibold.ttf": "/static/media/Melodrama-Semibold.b72c7840cb848209ac71.ttf",
     "static/media/Melodrama-Medium.ttf": "/static/media/Melodrama-Medium.587b9cad68f428417d75.ttf",
@@ -22,10 +22,10 @@
     "static/media/Melodrama-Bold.woff2": "/static/media/Melodrama-Bold.4c9b3df110d5520712a7.woff2",
     "index.html": "/index.html",
     "main.60e4e127.css.map": "/static/css/main.60e4e127.css.map",
-    "main.803d7cd9.js.map": "/static/js/main.803d7cd9.js.map"
+    "main.d0fbdf77.js.map": "/static/js/main.d0fbdf77.js.map"
   },
   "entrypoints": [
     "static/css/main.60e4e127.css",
-    "static/js/main.803d7cd9.js"
+    "static/js/main.d0fbdf77.js"
   ]
 }
