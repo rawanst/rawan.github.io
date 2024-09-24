@@ -12,36 +12,43 @@ import ComingSoon from './Pages/ComingSoon'
 import Home from './Pages/Home'
 import NotFound from './Pages/NotFound'
 
-const router = createBrowserRouter([
+const basename = process.env.NODE_ENV === 'production' ? '/rawanst.github.io' : '/'
+
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+    },
+    {
+      path: "/home",
+      element: <Home />,
+    },
+    {
+      path: "/blog",
+      element: <Blog />,
+    },
+    {
+      path: "/blog/:id",
+      element: <Article />,
+    },
+    {
+      path: "/portfolio",
+      element: <Portfolio />,
+    },
+    {
+      path: "/portfolio/:id",
+      element: <ComingSoon />,
+    },
+    {
+      path: "/*",
+      element: <NotFound />,
+    },
+  ],
   {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "home",
-    element: <Home />,
-  },
-  {
-    path: "blog",
-    element: <Blog />,
-  },
-  {
-    path: "blog/:id",
-    element: <Article />,
-  },
-  {
-    path: "portfolio",
-    element: <Portfolio />,
-  },
-  {
-    path: "portfolio/:id",
-    element: <ComingSoon />,
-  },
-  {
-    path: "*",
-    element: <NotFound />,
-  },
-]);
+    basename: basename,
+  }
+);
 
 createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
