@@ -26,7 +26,7 @@ function App() {
           style={{
             marginTop: '1rem'
           }}
-          onClick={() => navigate('/home')}
+          onClick={() => navigate('home')}
         >
           Voir mon portfolio
         </button>
