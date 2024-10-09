@@ -13,7 +13,7 @@ const FrontPage = ({title, content}) => {
         marginTop: '-8%',
         marginLeft: '1%',
         paddingTop: '12%',
-        paddingBottom: '8%',
+        paddingBottom: '5%',
 
         color: '#e8e3edff',
         fontSize: 'calc(10px + 2vmin)',
