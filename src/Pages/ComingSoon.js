@@ -1,9 +1,6 @@
-import Header from "../component/Header";
-
 const ComingSoon = () => {
   return(
     <>
-      <Header />
       <div
         style={{
           position: 'absolute',
@@ -13,6 +10,7 @@ const ComingSoon = () => {
           left: 0,
 
           display: 'flex',
+          flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
 
@@ -26,6 +24,9 @@ const ComingSoon = () => {
         <h1>
           Coming Soon ...
         </h1>
+        <a href='/portfolio'>
+          Retourner sur le portfolio
+        </a>
       </div>
     </>
   )
