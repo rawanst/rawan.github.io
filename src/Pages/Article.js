@@ -1,7 +1,6 @@
 import { useParams } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import ReactDom from 'react-dom'
-import Footer from '../component/Footer'
 import FrontPage from '../component/FrontPage'
 import Header from '../component/Header'
 import articlesContent from '../aticlesContent'
@@ -48,7 +47,6 @@ const Article = () => {
           {article.contenu}
         </ReactMarkdown>
       </div>
-      <Footer />
     </div>
   )
 }

@@ -1,5 +1,4 @@
 import React, {useEffect, useRef} from 'react'
-import Footer from "../component/Footer"
 import FrontPage from "../component/FrontPage"
 import Header from "../component/Header"
 import Liste from '../component/Liste'
@@ -63,7 +62,6 @@ const Portfolio = () => {
           )
         })}
       </div>
-      <Footer />
     </div>
   )
 }
