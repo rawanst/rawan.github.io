@@ -24,7 +24,7 @@ const NotFound = () => {
     </h1>
     <p style={{margin: '0'}}>Erreur 404</p>
     <p style={{marginTop: '0'}}>Cette page n'existe pas</p>
-    <a href='/home'>
+    <a href='/'>
       Retourner sur le site
     </a>
    </div>   
