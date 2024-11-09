@@ -24,7 +24,7 @@ const Header = () => {
       }}
     >
       <p 
-        onClick={() => { navigate(`/`) }}
+        onClick={() => { navigate(`/home`) }}
         style={{
           cursor: 'pointer',
           fontFamily: "Melodrama-Light", 

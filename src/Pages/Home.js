@@ -1,6 +1,7 @@
 import FrontPage from '../component/FrontPage'
 import Header from '../component/Header'
 import APropos from '../component/APropos'
+import Footer from '../component/Footer'
 
 const Home = () => {
   return(
@@ -16,6 +17,7 @@ const Home = () => {
         Découvrez mon parcours et mes réalisations.'
       />
       <APropos />
+      <Footer />
     </div>
   )
 }

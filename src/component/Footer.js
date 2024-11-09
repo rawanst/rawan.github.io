@@ -41,7 +41,7 @@ const Footer = () => {
               Voir
           </h3>
           <a
-            href='/blog'
+            href='#/blog'
             style={{
               fontSize: '65%',
               color: '#e8e3edff',
@@ -52,7 +52,7 @@ const Footer = () => {
             Blog
           </a>
           <a
-            href='/portfolio'
+            href='#/portfolio'
             style={{
               fontSize: '65%',
               color: '#e8e3edff',
