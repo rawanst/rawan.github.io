@@ -1,7 +1,7 @@
 import './App.css'
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"
 import { melodrama } from './fontShare/melodrama/css/melodrama.css'
-
+import { meloriac } from './fontShare/meloriac/css/meloriac.css'
 
 function App() {
 
