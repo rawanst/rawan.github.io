@@ -60,16 +60,16 @@ const Header = (props) => {
           <Toolbar>
             <Button 
               size='large'
-              onClick={() => { navigate('/home') }}
+              onClick={() => { navigate('/') }}
               sx={{
                 fontFamily: 'Melodrama-Light',
-                fontWeight: '500',
+                fontWeight: 'bolder',
                 color: '#b9cb3c',
                 fontSize: '1.5rem',
                 textTransform: 'lowercase',
+                textShadow: '1px 0px white',
                 ':hover': { 
                   color: '#e8e3edff', 
-                  fontSize: '1.55rem', 
                   transitionProperty: 'none'
                 }
               }}
@@ -85,11 +85,12 @@ const Header = (props) => {
                 onClick={() => { navigate(item.url) }}
                 sx={{
                   color: '#b9cb3c',
-                  fontFamily: 'Melodrama-Bold',
+                  fontFamily: 'Melodrama-Light',
+                  fontWeight: 'bolder',
                   m: 0.25,
+                  textShadow: '1px 0px white',
                   ':hover': { 
                     color: '#e8e3edff',
-                    fontSize: '1rem', 
                   transitionProperty: 'none'
                   }
                 }}
