@@ -18,7 +18,6 @@ const Footer = () => {
         backgroundColor: '#823ccbff',
         fontFamily: "Melodrama-Bold",
       }}
-
     >
       <div
         style={{

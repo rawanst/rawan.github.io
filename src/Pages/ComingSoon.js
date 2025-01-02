@@ -24,7 +24,7 @@ const ComingSoon = () => {
         <h1>
           Coming Soon ...
         </h1>
-        <a href='/portfolio'>
+        <a href='#/portfolio'>
           Retourner sur le portfolio
         </a>
       </div>

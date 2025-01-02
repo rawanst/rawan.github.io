@@ -41,7 +41,7 @@ const Portfolio = () => {
       }}
     >
       <Header />
-      <FrontPage title="Portfolio" content=""/>
+      <FrontPage title="Portfolio" content="Passionné par la tech, je transforme les défis en solutions innovantes. Découvrez mon parcours et mes réalisations."/>
       <div
         style={{
           display: 'flex',
