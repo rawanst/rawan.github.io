@@ -14,6 +14,7 @@ const FrontPage = ({title, titleDeux, content, isHomePage, links}) => {
     <Box
       height= '90vh'
       bgcolor= '#823ccbff'
+      mb='6%'
     >
       <Container
         sx={{
@@ -40,6 +41,7 @@ const FrontPage = ({title, titleDeux, content, isHomePage, links}) => {
               sx={{
                 fontFamily: "Meloriac-Regular",
                 color: '#b9cb3c',
+                textShadow: '1.8px 0px white',
                 wordWrap: 'break-word'
               }}
             >
